@@ -9,29 +9,31 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        default: "bg-primary text-primary-foreground border-primary rounded-md hover:bg-primary-pink-dark hover:shadow-[4px_4px_0_0_#000] hover:border-primary hover:border-[1px]",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
-        outline:
-          "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
+        "bg-transparent text-black border-[1px] border-primary rounded-md hover:bg-transparent hover:shadow-[4px_4px_0_0_#000] hover:border-primary",
+        accent: "bg-primary-pink-dark text-primary border-[1px] border-primary rounded-md hover:bg-primary-pink-dark/90 hover:shadow-[4px_4px_0_0_#000] hover:border-primary hover:border-[1px]",
+        'destroy-outline': "bg-transparent text-black border-[1px] border-primary rounded-md hover:bg-primary-red-dark hover:shadow-[4px_4px_0_0_#000] hover:border-primary hover:text-primary-foreground",
+        destroy: "bg-primary-red-dark text-primary-foreground border-[1px] border-primary rounded-md hover:bg-primary-red-dark hover:shadow-[4px_4px_0_0_#000] hover:border-primary",
+
       },
       size: {
-        default: "h-10 px-4 py-2",
-        sm: "h-9 rounded-md px-3",
-        lg: "h-11 rounded-md px-8",
-        icon: "h-10 w-10",
+        regular: "h-12 px-4 py-2",  // 48px height
+        small: "h-7 px-3 rounded-md",  // 30px height
       },
     },
     defaultVariants: {
       variant: "default",
-      size: "default",
+      size: "regular",
     },
   }
 )
+
+
+
+
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,

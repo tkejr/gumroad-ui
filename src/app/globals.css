@@ -10,8 +10,8 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 100%;
     --primary-pink: 312 100% 78%;
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -40,6 +40,9 @@
 
     --primary-gold-light: 48 88% 90%;
     --primary-gold-dark: 47 100% 50%;
+
+    --primary-pink-light: 307 67% 95%;
+    --primary-pink-dark: 312 99% 78%;
 
     --secondary-purple-light: 222 67% 95%;
     --secondary-purple-dark: 225 73% 75%;

@@ -24,7 +24,6 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -64,6 +63,10 @@ const config = {
         'primary-gold': {
           light: 'hsl(var(--primary-gold-light))',
           dark: 'hsl(var(--primary-gold-dark))',
+        },
+        'primary-pink': {
+          light: 'hsl(var(--primary-pink-light))',
+          dark: 'hsl(var(--primary-pink-dark))',
         },
         'secondary-purple': {
           light: 'hsl(var(--secondary-purple-light))',
