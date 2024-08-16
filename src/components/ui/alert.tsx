@@ -84,6 +84,8 @@ const Alert = React.forwardRef<HTMLDivElement, AlertProps>(
   )
 );
 
+Alert.displayName = "Alert";
+
 const AlertTitle = React.forwardRef<
   HTMLParagraphElement,
   React.HTMLAttributes<HTMLHeadingElement>
