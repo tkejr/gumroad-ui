@@ -46,6 +46,26 @@
 
     --secondary-purple-light: 222 67% 95%;
     --secondary-purple-dark: 225 73% 75%;
+
+    
+    --facebook: 220 46% 48%;
+    --stripe: 243 89% 66%;
+    --amazon: 34 89% 61%;
+    --paypal: 207 101% 24%;
+    --android: 205 50% 17%;
+    --apple: 0 0% 0%;
+    --discord: 227 58% 65%;
+    --zoom: 217 98% 62%;
+    --google: 221 81% 63%;
+    --twitter: 0 0% 0%;
+
+
+
+
+
+
+
+
   }
 
   .dark {

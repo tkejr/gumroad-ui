@@ -72,6 +72,33 @@ const config = {
           light: 'hsl(var(--secondary-purple-light))',
           dark: 'hsl(var(--secondary-purple-dark))',
         },
+        facebook:{
+          DEFAULT: 'hsl(var(--facebook))',
+        },
+        google:{
+          DEFAULT: 'hsl(var(--google))',
+        },
+        android:{
+          DEFAULT: 'hsl(var(--android))',
+        },
+        apple:{
+          DEFAULT: 'hsl(var(--apple))',
+        },
+        discord:{
+          DEFAULT: 'hsl(var(--discord))',
+        },
+        paypal:{
+          DEFAULT: 'hsl(var(--paypal))',
+        },
+        stripe:{
+          DEFAULT: 'hsl(var(--stripe))',
+        },
+        twitter:{
+          DEFAULT: 'hsl(var(--twitter))',
+        },
+        amazon:{
+          DEFAULT: 'hsl(var(--amazon))',
+        }
       },
       borderRadius: {
         lg: "var(--radius)",

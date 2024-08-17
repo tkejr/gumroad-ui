@@ -1,3 +1,4 @@
+"use client";
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"
@@ -9,11 +10,12 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground border-primary rounded-md hover:bg-primary-pink-dark hover:shadow-[4px_4px_0_0_#000] hover:border-primary hover:border-[1px]",
+        primary: "bg-primary text-primary-foreground border-primary rounded-md hover:bg-primary-pink-dark hover:shadow-[4px_4px_0_0_#000] hover:border-primary hover:border-[1px]",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         secondary:
         "bg-transparent text-black border-[1px] border-primary rounded-md hover:bg-transparent hover:shadow-[4px_4px_0_0_#000] hover:border-primary",
+        filled: "bg-primary-foreground text-black border-[1px] border-primary rounded-md hover:bg-primary-foreground hover:shadow-[4px_4px_0_0_#000] hover:border-primary",
         accent: "bg-primary-pink-dark text-primary border-[1px] border-primary rounded-md hover:bg-primary-pink-dark/90 hover:shadow-[4px_4px_0_0_#000] hover:border-primary hover:border-[1px]",
         'destroy-outline': "bg-transparent text-black border-[1px] border-primary rounded-md hover:bg-primary-red-dark hover:shadow-[4px_4px_0_0_#000] hover:border-primary hover:text-primary-foreground",
         destroy: "bg-primary-red-dark text-primary-foreground border-[1px] border-primary rounded-md hover:bg-primary-red-dark hover:shadow-[4px_4px_0_0_#000] hover:border-primary",
@@ -25,7 +27,7 @@ const buttonVariants = cva(
       },
     },
     defaultVariants: {
-      variant: "default",
+      variant: "primary",
       size: "regular",
     },
   }
