@@ -87,42 +87,17 @@ export default function RootLayout({
                   </li>
                 </ul>
               </div>
-              <div className="mb-8">
-                <h2 className="text-sm font-semibold text-gray-900 uppercase tracking-wide">Templates</h2>
-                <ul className="mt-2 space-y-2">
-                  <li>
-                    <Link href="/templates/portfolio" className="flex items-center justify-between block text-sm text-gray-600 hover:text-gray-900">
-                      Portfolio <span className="ml-2 text-xs text-green-700 bg-green-100 rounded-full px-2 py-0.5">New</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/templates/startup" className="flex items-center justify-between block text-sm text-gray-600 hover:text-gray-900">
-                      Startup <span className="ml-2 text-xs text-blue-700 bg-blue-100 rounded-full px-2 py-0.5">Paid</span>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
               <div>
                 <h2 className="text-sm font-semibold text-gray-900 uppercase tracking-wide">Components</h2>
                 <ul className="mt-2 space-y-2">
                   <li>
-                    <Link href="/components/marquee" className="block text-sm text-gray-600 hover:text-gray-900">
-                      Marquee
+                    <Link href="/button/" className="block text-sm text-gray-600 hover:text-gray-900">
+                      Buttons
                     </Link>
                   </li>
                   <li>
-                    <Link href="/components/accordion" className="block text-sm text-gray-600 hover:text-gray-900">
-                      Accordion
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/components/avatar" className="block text-sm text-gray-600 hover:text-gray-900">
-                      Avatar
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/components/button" className="block text-sm text-gray-600 hover:text-gray-900">
-                      Button
+                    <Link href="/alert/" className="block text-sm text-gray-600 hover:text-gray-900">
+                      Alert
                     </Link>
                   </li>
                   {/* Add more component links as needed */}
